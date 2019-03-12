@@ -1,0 +1,9 @@
+[Unit]
+Description=Test Service executed at startup;
+After=network.target;
+
+[Service]
+ExecStart=/etc/initscript.sh
+
+[Install]
+WantedBy=multi-user.target

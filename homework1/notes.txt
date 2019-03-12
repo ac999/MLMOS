@@ -1,0 +1,17 @@
+serviciu->start
+		->dupa network
+		->exec bootstrap.sh
+
+bootstrap.sh 	
+				-> clone pentru VM[nume]
+				-> github (unde are config)
+				-> exec script de pe github
+				-> outputul scriptului in fisier
+
+(crudini) .ini:
+	[grup]
+	key=val
+	[....]
+	blabla=blabla
+
+	
