@@ -17,6 +17,7 @@ cp $PUB_KEY /root/.ssh/
 cp $SSH_PATH/sshd_config $SSH_PATH/sshd_config.bk
 rm -f $SSH_PATH/sshd_config
 cp $SCF_PATH/sshd_config $SSH_PATH/sshd_config
+systemctl restart sshd
 
 #SELINUX
 SEL_PATH="/etc/selinux"
