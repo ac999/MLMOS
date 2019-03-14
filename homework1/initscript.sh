@@ -21,6 +21,7 @@ systemctl disable VMInstall.service
 yum -y install git
 
 #clone
+rm -rf /tmp/MLMOS
 git clone https://github.com/ac999/MLMOS.git /tmp/MLMOS
 REP_PATH="/tmp/MLMOS/homework1"
 chmod +x $REP_PATH/bootstrap.sh
