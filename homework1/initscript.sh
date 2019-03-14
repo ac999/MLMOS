@@ -13,13 +13,6 @@ if [[ $(wc -l $IFCFG_PATH/ifcfg-enp0s3 |cut -d ' ' -f 1) -ge '15' ]]; then rm -f
 systemctl restart network
 
 
-#update apps;
-#yum -y update
-
-#
-#SSH_PATH="/etc/ssh"
-#cp $SSH_PATH/sshd_config $SSH_PATH/sshd_config.bk
-
 #disable created service;
 systemctl stop VMInstall.service
 systemctl disable VMInstall.service

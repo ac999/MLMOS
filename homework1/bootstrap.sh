@@ -1,4 +1,6 @@
 #!/bin/sh
+
+
 #update apps;
 yum -y update
 
@@ -7,7 +9,7 @@ if [[ $(find /root/.ssh | wc -l) -ne 1 ]]; then
 	mkdir /root/.ssh;
 fi
 
-SCF_PATH="/tmp/MLMOS/homework1/ssh_cfg"
+SCF_PATH="/tmp/MLMOS/homework1/sshd_cfg"
 PUB_KEY=$SCF_PATH/id_mlmos.pub
 SSH_PATH="/etc/ssh"
 
