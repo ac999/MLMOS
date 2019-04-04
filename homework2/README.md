@@ -8,12 +8,7 @@ Docker image containing a web server which is exposing a game.
 
 Modified 2 or 3 lines of the original butterfly terminal emulator so you can play the game in it.
 
-<<<<<<< HEAD
 Tested & working (using docker).
-=======
-Tested using docker.
-
->>>>>>> b774d7773cb16d2d3cb4d5fdca4fbbde05f47771
 
 ## License @pywumpus
 
