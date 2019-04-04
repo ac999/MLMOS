@@ -2,6 +2,8 @@
 
 Docker image containing a web server which is exposing a game.
 
+![](https://raw.githubusercontent.com/ac999/MLMOS/master/homework2/wumpus.png)
+
 * [@lanhel/pywumpus](https://github.com/lanhel/pywumpus) - python implementation of the game "Hunt the Wumpus";
 
 * [@paradoxxxzero/butterfly](https://github.com/paradoxxxzero/butterfly) - terminal running in browser;
