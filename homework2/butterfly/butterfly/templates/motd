@@ -1,0 +1,5 @@
+{{ colors.red }} Andrei Cristian @ MLMOS 2019 {{ colors.reset }}
+
+{{ colors.light_white + '\x1b[5m' }}Hunt the Wumpus{{ colors.reset }}
+
+
