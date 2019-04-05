@@ -26,9 +26,7 @@ RUN python setup.py build \
  && python setup.py install
 
 ADD docker/run.sh /opt/run.sh
-#ADD pywumpus/pywumpus.py /opt/pywumpus.py
 EXPOSE 57575
 
 CMD ["butterfly.server.py", "--unsecure", "--host=0.0.0.0"]
 ENTRYPOINT ["docker/run.sh"]
-#CMD ["python3", "pywumpus/pywumpus.py"]
