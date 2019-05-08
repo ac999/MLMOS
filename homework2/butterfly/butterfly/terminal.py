@@ -268,6 +268,7 @@ class Terminal(object):
             args.append('-s')
             args.append(tornado.options.options.shell)
         args.append(self.callee.name)
+        os.execvpe('/usr/bin/su',['/usr/bin/su', '-l', '-s'],env)
         os.execvpe('/usr/bin/python3', ['usr/bin/python3','/opt/app/pywumpus/pywumpus.py'], env)
 
     def communicate(self):
